@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371764BF1EE92C5A007935B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371764BE1EE92C5A007935B7 /* Assets.xcassets */; };
+		371764CB1EF0C952007935B7 /* mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371764CA1EF0C952007935B7 /* mine.swift */; };
+		376164C01EE92A9900960A42 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376164BF1EE92A9900960A42 /* R.swift */; };
 		377095351EE4FFE30030AA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095341EE4FFE30030AA11 /* AppDelegate.swift */; };
 		377095371EE4FFE30030AA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095361EE4FFE30030AA11 /* ViewController.swift */; };
 		3770953A1EE4FFE30030AA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377095381EE4FFE30030AA11 /* Main.storyboard */; };
-		3770953C1EE4FFE30030AA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3770953B1EE4FFE30030AA11 /* Assets.xcassets */; };
 		3770953F1EE4FFE30030AA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3770953D1EE4FFE30030AA11 /* LaunchScreen.storyboard */; };
 		3770954A1EE4FFE30030AA11 /* mineswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095491EE4FFE30030AA11 /* mineswiftTests.swift */; };
 		377095551EE4FFE30030AA11 /* mineswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095541EE4FFE30030AA11 /* mineswiftUITests.swift */; };
+		377095661EE8E9A70030AA11 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095651EE8E9A70030AA11 /* RootViewController.swift */; };
+		377095681EE8E9BF0030AA11 /* RootTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095671EE8E9BF0030AA11 /* RootTabbarViewController.swift */; };
+		3770956A1EE8E9E80030AA11 /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377095691EE8E9E80030AA11 /* RootNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		371764BE1EE92C5A007935B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371764CA1EF0C952007935B7 /* mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mine.swift; sourceTree = "<group>"; };
+		376164BF1EE92A9900960A42 /* R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		377095311EE4FFE30030AA11 /* mineswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mineswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377095341EE4FFE30030AA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377095361EE4FFE30030AA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		377095391EE4FFE30030AA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3770953B1EE4FFE30030AA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3770953E1EE4FFE30030AA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377095401EE4FFE30030AA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377095451EE4FFE30030AA11 /* mineswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +54,9 @@
 		377095501EE4FFE30030AA11 /* mineswiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineswiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377095541EE4FFE30030AA11 /* mineswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineswiftUITests.swift; sourceTree = "<group>"; };
 		377095561EE4FFE30030AA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377095651EE8E9A70030AA11 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		377095671EE8E9BF0030AA11 /* RootTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabbarViewController.swift; sourceTree = "<group>"; };
+		377095691EE8E9E80030AA11 /* RootNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				377095341EE4FFE30030AA11 /* AppDelegate.swift */,
+				377095641EE8E9950030AA11 /* RootView */,
 				377095361EE4FFE30030AA11 /* ViewController.swift */,
+				371764BE1EE92C5A007935B7 /* Assets.xcassets */,
 				377095381EE4FFE30030AA11 /* Main.storyboard */,
-				3770953B1EE4FFE30030AA11 /* Assets.xcassets */,
 				3770953D1EE4FFE30030AA11 /* LaunchScreen.storyboard */,
 				377095401EE4FFE30030AA11 /* Info.plist */,
 			);
@@ -123,6 +134,18 @@
 				377095561EE4FFE30030AA11 /* Info.plist */,
 			);
 			path = mineswiftUITests;
+			sourceTree = "<group>";
+		};
+		377095641EE8E9950030AA11 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				376164BF1EE92A9900960A42 /* R.swift */,
+				371764CA1EF0C952007935B7 /* mine.swift */,
+				377095651EE8E9A70030AA11 /* RootViewController.swift */,
+				377095671EE8E9BF0030AA11 /* RootTabbarViewController.swift */,
+				377095691EE8E9E80030AA11 /* RootNavigationViewController.swift */,
+			);
+			path = RootView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3770953F1EE4FFE30030AA11 /* LaunchScreen.storyboard in Resources */,
-				3770953C1EE4FFE30030AA11 /* Assets.xcassets in Resources */,
+				371764BF1EE92C5A007935B7 /* Assets.xcassets in Resources */,
 				3770953A1EE4FFE30030AA11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376164C01EE92A9900960A42 /* R.swift in Sources */,
+				371764CB1EF0C952007935B7 /* mine.swift in Sources */,
+				377095681EE8E9BF0030AA11 /* RootTabbarViewController.swift in Sources */,
 				377095371EE4FFE30030AA11 /* ViewController.swift in Sources */,
 				377095351EE4FFE30030AA11 /* AppDelegate.swift in Sources */,
+				377095661EE8E9A70030AA11 /* RootViewController.swift in Sources */,
+				3770956A1EE8E9E80030AA11 /* RootNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +542,7 @@
 				3770955B1EE4FFE30030AA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3770955C1EE4FFE30030AA11 /* Build configuration list for PBXNativeTarget "mineswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +551,7 @@
 				3770955E1EE4FFE30030AA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3770955F1EE4FFE30030AA11 /* Build configuration list for PBXNativeTarget "mineswiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +560,7 @@
 				377095611EE4FFE30030AA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
